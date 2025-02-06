@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c8e099;
+
+}
+
+.container {
+    background-image: linear-gradient(rgb(163, 207, 236),rgb(114, 103, 116));
+    padding: 30px;
+    border: 4px double rgb(44, 43, 43);
+    box-shadow: 0 0 10px rgba(230, 218, 218, 0.1);
+    width: 400px;
+    text-align: center;
+    padding-top: 0%;
+   
+}
+
+.password-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#password {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+#copy-btn {
+    width: 20%;
+    border: none;
+    background:#c9499e;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.options {
+    text-align: left;
+    margin: 10px ;
+}
+
+.options label {
+    display: block;
+    margin: 5px ;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #c9499e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+ button:hover  {
+    background: #218838;
+}
+
+#copy-btn:hover{
+    background: #218838;
+    
+}
+
+#length{
+    width: 200px;
+}
